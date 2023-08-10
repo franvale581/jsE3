@@ -64,7 +64,7 @@ const pizzas = [
     contenedorResultados.innerHTML = `
       <h2>${pizza.nombre}</h2>
       <img src="${pizza.imagen}">
-      <p>Precio: $${pizza.precio}</p>
+      <span>Precio: $${pizza.precio}</span>
       <p>Ingredientes: ${pizza.ingredientes.join(', ')}</p>
     `;
   }
